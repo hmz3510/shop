@@ -1,0 +1,529 @@
+body,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+}
+.content>.title{
+    margin-left:140px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.content>.title>h5{
+    font-size: 15px;
+    color:#666;
+}
+.content>.content-l{
+    position: relative;
+    float: left;
+}
+.content>.content-l>.content-l-t>.imgbox{
+    margin-left: 200px;
+    margin-top: 30px;
+    width:380px;
+    height: 380px;
+    border:1px solid #eee;
+    position: relative;
+}
+
+.content>.content-l>.content-l-t>.imgbox>img{
+    width: 380px;
+    height: 380px;
+}
+.d-none{
+    display: none;
+}
+.content>.content-l>.content-l-t>.imgbox>.superCover{
+    z-index: 10;
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top:0;
+  
+}
+.content>.content-l>.content-l-t>.imgbox>.shadow{
+    width: 190px;
+    height: 190px;
+     background: rgba(50,50,50,.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content>.content-l>.content-l-t>.imgbox>.img-lg{
+    width: 480px;
+    height: 480px;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    left: 385px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    background: #fff;
+}
+.content>.content-l>.content-l-t>.imgbox>.img-lg>img{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+ 
+}
+.content-l>.content-l-b{
+    position: relative;
+    margin-left: 200px;
+}
+.content-l>.content-l-b>.arrow>.arrow-l{
+    position: absolute;
+    margin-top: 35px;
+    display: block;
+    margin-left: 10px;
+}
+.content-l>.content-l-b>.arrow>.arrow-r{
+    position: absolute;
+    left: 340px;
+    top: 35px; 
+}
+.disabled{
+    opacity: .6;
+}
+.content-l>.content-l-b>.arrow>.arrow-l>img{
+    height: 30px;
+}
+.content-l>.content-l-b>.arrow>.arrow-r>img{
+    height: 30px;
+}
+.content-l>.content-l-b>.box{
+    width: 320px;
+    height: 74px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.content-l>.content-l-b>.box>ul{
+    margin-top: 22px;
+    transition: .5s all linear;
+}
+.content-l>.content-l-b>.box>ul>li{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 52px;
+}
+.content-l>.content-l-b>.box>ul>li.active{
+    border:1px solid #f10;
+}
+.content-l>.content-l-b>.box li.hover img{
+    border:1px solid #f10;
+}
+.content-r{
+    float: right;
+}
+.content-r>.details{
+    position: relative;
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.content-r>.details>.title{
+    font-weight: bold;
+    font-size: 19px;
+    width: 750px;
+    color:#333;
+    margin-bottom: 10px;
+}
+.content-r>.details>.subtitle{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px;
+    width:700px;
+    text-align: left;
+}
+.content-r>.details>.price>span.info-left{
+    font-size: 14px;
+    color: #333;
+}
+.content-r>.details>.price>span.info-money{
+    color: #E31436;    
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 0px;
+    display: inline-block;
+}
+.content-r>.details>.price>p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #222;
+    
+}
+.content-r>.details>.more>.huodong>span{
+    color: #333;
+    font-size: 14px;
+}
+.content-r>.details>.more>.huodong>span:nth-child(2){
+    margin-left: 40px;
+    background:  #E31436;
+    color:#fff;
+    padding:0 8px;
+    margin-right: 5px
+}
+.content-r>.details>.more>.peisong{
+    margin-top: 10px;
+}
+.content-r>.details>.more>.peisong>span{
+    color: #333;
+    font-size: 14px;
+  
+}
+.content-r>.details>.more>.peisong>.choose{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 40px;
+    color: #333;
+    position: relative;
+}
+.content-r>.details>.more>.peisong>.choose>span:nth-child(2){
+    border: 1px solid #ccc !important;
+    padding: 0 25px 0 5px;
+    margin:0px 5px;
+    border:#ccc;
+    width: 10px;
+    height: 10px;
+}
+.content-r>.details>.more>.peisong>.choose>span:nth-child(2)>span{
+    border:6px solid transparent;
+    height: 10px;
+    display: inline-block;
+    border-top-color: #666;
+    position: absolute;
+    top:8px; 
+    margin-left: 5px;
+}
+.content-r>.details>.spec{
+    position: relative;
+    margin-top: 10px;
+    color:#333;
+}
+.content-r>.details>.spec>span{
+    font-size: 14px;
+    margin-top: 35px;
+    display: block;
+}
+.content-r>.details>.spec>.spec-show{
+    width: 500px;
+    margin-left: 74px;
+    margin-top: -40px;
+}
+.content-r>.details>.spec>.spec-show>a{
+    font-family:"simsun";
+    color: #666;
+    font-size: 14px;
+    border: 1px solid #888;
+    padding: 10px 12px;
+    display: inline-block;
+    margin: 0 5px 8px 0;
+}
+.select{
+    border:1px solid #e3393c !important; 
+    color:#e3393c !important;
+}
+
+.content-r>.details>.number{
+    position: relative;
+    margin-top: 5px;
+}
+.content-r>.details>.number>span{
+    font-size: 14px;
+    color: #333;
+ 
+}
+.content-r>.details>.number>.add{
+    margin-left: 75px;
+    margin-top: -25px;
+}
+.content-r>.details>.number>.add>button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    text-align: center;
+}
+.content-r>.details>.number>.add>button:last-child{
+    margin-left: 45px;
+}
+.content-r>.details>.number>.add>input{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    outline: none;
+   position: absolute;
+}
+.content-r>.details>.buy{
+  position: relative;  
+  margin-left: 75px;
+  margin-top: 30px;
+}
+.content-r>.details>.buy>a{
+        background: #663200;
+        color: #fff;
+        width: 115px;
+        height: 40px;
+        font:16px/40px microsoft yahei;
+        display: inline-block;
+        text-align: center;
+        font-weight: 600;
+        margin-right: 5px;
+       border-radius: 4px 4px 0px 0px;
+}
+.content-r>.details>.buy>a:last-child{
+    background: #f50; 
+    width: 160px;
+}
+.content-r>.details>.buy>a:last-child>img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 130px;
+    top:8px;
+}
+.content:after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+/*热门推荐*/
+.hot-tj{
+    position: relative;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.hot-tj>.hot-title{
+    border-bottom: 1px solid #f00;
+    width: 1100px;
+}
+.hot-tj>.hot-title>span{
+    width: 100px;
+    height: 37px;
+    background: #E4393C;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 15px;
+    position: absolute;
+    top: -37px;
+    text-align: center;
+    line-height: 30px;
+}
+.hot-tj>.hot-product{
+    margin-top: 25px
+}
+.hot-tj>.hot-product>a{
+    margin:0px 15px;
+    float: left;
+}
+.hot-tj>.hot-product>a>img{
+    width: 155px;
+    height: 155px;
+}
+.hot-tj>.hot-product>a>div{
+    text-align: center;
+    font-size: 14px;
+    color: #f00;
+}
+.hot-tj:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+/*底部*/
+.footer{
+	position: relative;
+    width: 100%;
+}
+.footer>.footer-title{
+	margin-top: 60px;
+	position: relative;
+	border-bottom:1px solid #dedede;
+	padding: 28px 0;
+}
+.footer>.footer-title>ul{
+	list-style: none;
+	margin-left: 140px;
+	width: 1300px;
+}
+.footer>.footer-title>ul>li{
+	float: left;
+	margin-right: 75px;
+}
+.footer>.footer-title>ul>li>a>span{
+	color: #444;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 15px;
+}
+.footer>.footer-title>ul>li>a>i{
+	background: url("../images/footer/ico_service.png") no-repeat;
+	width: 36px;
+	height: 43px;
+	display: block;
+	float: left;
+}
+.footer>.footer-title>ul>li>a>i.icon_2{
+	background-position: 0 -42px;
+}
+.footer>.footer-title>ul>li>a>i.icon_3{
+	background-position: 0 -85px;
+}
+.footer>.footer-title>ul>li>a>i.icon_4{
+	background-position: 0 -128px;
+}
+.footer>.footer-title:after{
+	display: block;
+	content:"";
+	clear: both;
+}
+/*底部中间内容*/
+.footer>.footer-m{
+	position: relative;
+	width: 1300px;
+	color:#555;
+	margin-top: 5px;
+	border-bottom:1px solid #dedede;
+	padding: 20px 0;
+}
+.footer>.footer-m>ul{
+	float: left;
+	list-style: none;
+	margin-left: 120px;
+
+}
+.footer>.footer-m>ul>h5{
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.footer>.footer-m>ul>li>a{
+	color:#333;
+	font-size: 12px;
+}
+.footer>.footer-m>ul>li>a:hover{
+	color:#C81623;
+}
+.footer>.footer-m>ul:last-child>h5{
+	text-align: center;
+}
+.footer>.footer-m>ul:last-child>li>p{
+	font-size: 13px;
+	text-align: left;
+	width: 180px;
+}
+.footer>.footer-m>ul:last-child>li>a{
+	text-align: right;
+	display: block;
+	
+}
+.footer>.footer-m:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+/*底部尾部*/
+.footer-bottom{
+	position: relative;
+	width: 100%;
+	margin-bottom: 60px;
+}
+.footer-bottom>.footer-bottom-t>ul{
+	margin-left: 220px;
+	list-style: none;
+	margin-top: 25px;
+}
+.footer-bottom>.footer-bottom-t>ul>li{
+	float: left;
+	
+}
+.footer-bottom>.footer-bottom-t>ul>li>a{
+	color: #666;
+	font-size: 12px;
+}
+.footer-bottom>.footer-bottom-t>ul>li>a:hover{
+	color:#C81623;
+}
+.footer-bottom>.footer-bottom-t>ul>li>span{
+	font-size: 10px;
+	color: #666;
+	vertical-align:center;
+	margin-left:10px;
+	margin-right: 8px;
+}
+.footer-bottom>.footer-bottom-t>ul>li>span.shu{
+	margin-left: 4px;
+}
+.footer-bottom-t:after{
+	clear: both;
+	display: block;
+	content:"";
+}
+/*底部中部*/
+.footer-bottom-m{
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+
+}
+.footer-bottom-m>.footer-bottom-m-t>a{
+	color: #666;
+	font-size: 12px;
+}
+.footer-bottom-m>.footer-bottom-m-t>span{
+	color: #666;
+	font-size: 12px;
+}
+.footer-bottom-m>.footer-bottom-m-t>span{
+	margin-left: 5px;	
+}
+.footer-bottom-b{
+	position: relative;
+	margin-top: 10px;
+}
+.footer-bottom-b>.site{
+	background: url("../images/footer/ico_footer.png");
+	display: inline-block;
+	width: 103px;
+	height: 32px;
+}
+.footer-bottom-b>.icon_1{
+	background-position: 0 -150px;
+}
+.footer-bottom-b>.icon_2{
+	background-position: -104px -150px;
+}
+.footer-bottom-b>.icon_3{
+	background-position: 0 -183px;
+}
+.footer-bottom-b>.icon_4{
+	background-position: -104px -183px;
+}
+.footer-bottom-b>.icon_5{
+	background-position: 0 -216px;
+}
+.footer-bottom-b>.icon_6{
+	background-position: -104px -216px;
+}

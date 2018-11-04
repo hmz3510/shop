@@ -1,0 +1,143 @@
+body,ul,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+.header .logo img{
+	margin-left: 210px;
+	width:10%;
+}
+.header .logo span{
+	font-size: 26px;
+	color: #555;
+	position: absolute;
+	top: 50px;
+	left:400px;
+}
+.header .header-main{
+	background: #fd7a72;
+	height: 470px;
+}
+.header-main:after{
+	clear: both;
+}
+.header-main .header-left{
+	margin-left: 200px;
+	float: left;
+}
+.header-main .header-right{
+	float: right;
+	margin-right: 200px;
+	margin-top:20px;
+	background: #fff;
+	width: 25%;
+	position: relative;
+}
+.header-right h3{
+	color: #666;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 16px;
+}
+.header-right div.register{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	background: #e6e6e6;
+	padding: 5px 5px;
+}
+.header-right div.register a{
+	color: #0e90d2;
+}
+.header-right div.register a:hover{
+	color: #095f8a;
+}
+.header-right .yhm,.mm{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.header-right .yhm input{
+	outline: none;
+	width: 230px;
+	height: 25px;
+	text-indent:2em;
+	border:none;
+	
+}
+.header-right .yhm img{
+	vertical-align: middle;	
+}
+.header-right .mm input{
+	outline: none;
+	width: 230px;
+	height: 25px;
+	text-indent:2em;
+	margin-bottom: 60px;
+	border:none;
+}
+.header-right .mm img{
+	vertical-align: middle;	
+	margin-left: -5px;
+}
+.header-right .pwd-box{
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.header-right .pwd-box span{
+	font-size: 14px;
+	color: #333333;
+}
+.header-right span a{
+	float: right;
+	margin-right: 20px;
+	color: #0e90d2;
+	font-size: 14px;
+}
+.header-right .bttn input{
+	background: #0E90D2;
+	border: none;
+	color: #fff;
+	width: 80%;
+	padding: 8px 0;
+	margin-left:35px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.header-right .wechat h5{
+	color: #333333;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.header-right .wechat ul {
+	list-style: none;
+	margin-left: 10px;
+}
+.header-right .wechat ul li{
+	float: left;
+}
+.header-right .wechat ul li a{
+	color: #000000;
+	font-size: 14px;
+}
+.header-right .wechat ul li a img{
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.header-right .wechat ul li a:hover{
+	color: #095f8a;
+}
+.header-right .wechat{
+	margin-bottom: 100px;
+}
+
+.footer{
+	text-align: center;
+	margin-top: 40px;
+	color: #333333;
+	font-size: 14px;
+	line-height: 20px;
+}

@@ -1,0 +1,160 @@
+body,ul,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+.header .logo img{
+	margin-left: 210px;
+	width:10%;
+}
+
+.header .header-main{
+	background: #fd7a72;
+	height: 470px;
+}
+.header-main:after{
+	clear: both;
+}
+.header-main .header-left{
+	margin-left: 200px;
+	float: left;
+}
+.header-main .header-right{
+	float: right;
+	margin-right: 200px;
+	margin-top:20px;
+	background: #fff;
+	width: 25%;
+	position: relative;
+}
+.header-right h3.zc{
+	color: #666;
+	text-align: left;
+	padding-top: 20px;
+	font-size: 16px;
+	margin-left: 60px;
+	width:110px;
+	text-align: center;
+}
+.header-right h3.phone-register{
+	color: #666;
+	font-size: 16px;
+	margin-left: 180px;
+	margin-top: -22px;
+	width:110px;
+	text-align: center;
+}
+.box-bottom{
+	padding-top: 1px;
+	border-bottom:1px solid #0E90D2;
+}
+
+.header-right .register-email{
+	/*transition: all .3s linear;*/
+	position: absolute;
+	left: 20px;
+}
+.header-right .register-telphone{
+	/*transition: all .3s linear;*/
+	position: absolute;
+	top: 50px;
+}
+
+
+.header-right .yhm,.mm,.email{
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+.header-right .email button{
+	color: #0E90D2;
+	border: none;
+	border:1px solid #DDDDDD;
+	background-color: #fff;
+	padding: 8px;
+	cursor: pointer;
+	position: absolute;
+	top: 80px;
+	left: 250px;
+	outline: none;
+}
+.header-right .yhm input{
+	outline: none;
+	width: 230px;
+	height: 25px;
+	text-indent:2em;
+	border: none;
+	
+}
+.header-right .yhm img{
+	vertical-align: middle;	
+}
+.header-right .mm input{
+	outline: none;
+	width: 230px;
+	height: 25px;
+	text-indent:2em;
+	border: none;	
+	
+}
+.header-right .mm img{
+	vertical-align: middle;	
+	margin-left: -5px;
+}
+.header-right .email input{
+	outline: none;
+	width: 230px;
+	height: 25px;
+	text-indent:2em;
+	border: none;
+	
+}
+.header-right .email img{
+	vertical-align: middle;	
+	margin-left: -1px;
+}
+.header-right .pwd-box{
+	margin:20px 0px 40px 30px;
+}
+.header-right .pwd-box span{
+	font-size: 14px;
+	color: #333333;
+}
+
+.header-right .bttn input{
+	background: #0E90D2;
+	border: none;
+	color: #fff;
+	width: 80%;
+	padding: 8px 0;
+	margin-left:35px;
+	margin-bottom: 80px;
+	cursor: pointer;
+
+}
+.header-right .bttn-1 input{
+	background: #0E90D2;
+	border: none;
+	color: #fff;
+	width: 80%;
+	padding: 8px 0;
+	margin-left:35px;
+	margin-bottom: 80px;
+	cursor: pointer;
+
+}
+.header-right{
+	height: 410px;
+}
+
+
+.footer{
+	text-align: center;
+	margin-top: 40px;
+	color: #333333;
+	font-size: 14px;
+	line-height: 20px;
+}
